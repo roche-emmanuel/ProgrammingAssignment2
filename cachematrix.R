@@ -3,6 +3,11 @@
 ## Note that we assume here that any input matrix will be invertible
 ## results are undefined otherwise.
 
+## Implementation note: I deliberately uses 2 spaces indends in this code even
+## if using more than 4 spaces seems to be advised in this course. Please do
+## not consider this as a layout error since this is simply my personnal
+## coding style (and I've been coding like that for years... :-) )
+
 
 ## Helper function used to create an encapsulation object for our
 ## matrix inverse cache.
