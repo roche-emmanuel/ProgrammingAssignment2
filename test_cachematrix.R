@@ -1,5 +1,23 @@
 # This file contains tests for the cachematrix implemenetations
 
+# Usage for those tests:
+# call source() with the cachematrix.R file
+# call source() with this test_cachematrix.R file
+# then call for instance:
+
+# > computeInverse(500,100)
+# Acceletation factor: 96.857143
+# > computeInverse(200,1000)
+# Acceletation factor: 946.000000
+# > computeInverse(100,10000)
+# Acceletation factor: 456.666667
+
+# => The "acceletation factor should provide an indication of how
+# faster the cacheMatrix version was compared to raw inversion.
+
+
+################  functions #############################
+
 # Helper function used to create an upper triangular matrix 
 # Should always be invertible (if the diagonal coeffs are not zeros)
 # see for instance: https://www.ashleymills.com/node/319
